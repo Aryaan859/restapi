@@ -1,0 +1,17 @@
+# Node.js Express project
+/node_modules
+/dist
+.env
+.env.example
+.log
+.pids
+.DS_Store
+.local
+.db.sqlite3
+.db.sqlite3-journal
+coverage
+.nyc_output
+.eslintcache
+.jest
+.jest-cache
+.typecheck
