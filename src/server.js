@@ -22,7 +22,8 @@ app.get("/api", (req, res) => {
 });
 
 //serverless deployment
-export default handler = serverless(app);
+const handler = serverless(app);
+export default handler;
 
 // if (process.env.NODE_ENV === "development") {
 //   app.listen(port, () => {
